@@ -1,4 +1,12 @@
 
+### [0.1.1](https://github.com/dd-n-kk/pylib-template/compare/v0.1.0..v0.1.1) - 2025-02-08
+
+#### Chores
+
+- **(cicd)** Correct installation test in release workflow - ([b4225e8](https://github.com/dd-n-kk/pylib-template/commit/b4225e848494b3a05e2b9216cab294fa69b93bd1)) - dd-n-kk
+
+---
+
 ### 0.1.0 - 2025-02-08
 
 #### Chores
