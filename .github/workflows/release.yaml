@@ -41,8 +41,9 @@ jobs:
     - name: Test installation
       env:
         INDEX_URL: "https://test.pypi.org/simple/"
+        MODULE: "pylib"
         PKG: "pylib-template"
-      run: uv run --with "$PKG" --default-index $INDEX_URL --no-project -- python -c "import $PKG"
+      run: uv run --with "$PKG" --default-index "$INDEX_URL" --no-project -- python -c "import $MODULE"
 
     - name: Create GitHub release
       env:
