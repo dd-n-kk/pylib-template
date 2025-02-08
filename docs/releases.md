@@ -1,4 +1,12 @@
 
+### [0.1.2](https://github.com/dd-n-kk/pylib-template/compare/v0.1.1..v0.1.2) - 2025-02-08
+
+#### Documentation
+
+- Adjsut MkDocs config - ([ed21860](https://github.com/dd-n-kk/pylib-template/commit/ed218604975c09f0a8ededa6fa2dc5aac40efcfa)) - dd-n-kk
+
+---
+
 ### [0.1.1](https://github.com/dd-n-kk/pylib-template/compare/v0.1.0..v0.1.1) - 2025-02-08
 
 #### Chores
