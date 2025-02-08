@@ -8,6 +8,7 @@ repo_name: 'dd-n-kk/pylib-template'
 nav:
 - README.md
 - API: api.md
+- Releases: releases.md
 
 
 theme:
@@ -55,7 +56,7 @@ extra:
   - icon: fontawesome/brands/github
     link: 'https://github.com/dd-n-kk/pylib-template'
   - icon: simple/pypi
-    link: 'https://pypi.org'
+    link: 'https://test.pypi.org/project/pylib-template/'
 
 
 plugins:
@@ -84,6 +85,7 @@ markdown_extensions:
 - attr_list
 - toc:
     permalink: true
+    toc_depth: 3
 
 # Python Markdown Extensions
 - pymdownx.arithmatex:
