@@ -8,6 +8,7 @@ exclude = [
   "/.github",
   "/docs",  # Hatch still includes `docs/README.md` if `project.readme` is set.
   "/tests",
+  ".gitignore",
   ".readthedocs.yaml",
   "CHANGELOG.md",
   "cliff.toml",
