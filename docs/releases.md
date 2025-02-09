@@ -1,4 +1,13 @@
 
+### [0.1.3](https://github.com/dd-n-kk/pylib-template/compare/v0.1.2..v0.1.3) - 2025-02-09
+
+#### Documentation
+
+- Adjust MkDocs navigation config - ([0844910](https://github.com/dd-n-kk/pylib-template/commit/08449109f4c0c74ce1396a171c0893b03bda8214)) - dd-n-kk
+- Add badges to README - ([fd62654](https://github.com/dd-n-kk/pylib-template/commit/fd62654691a331bc7445df13af0768799090d710)) - dd-n-kk
+
+---
+
 ### [0.1.2](https://github.com/dd-n-kk/pylib-template/compare/v0.1.1..v0.1.2) - 2025-02-08
 
 #### Documentation
