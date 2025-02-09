@@ -7,6 +7,15 @@
 
 ---
 
+[![Test PyPI][pypi-badge]][pypi]
+[![Documentation][readthedocs-badge]][readthedocs]
+[![Issues][issues-badge]][issues]
+
+[![CI workflow status][ci-workflow-badge]][ci-workflow]
+[![Release workflow status][release-workflow-badge]][release-workflow]
+[![Test coverage][codecov-badge]][codecov]
+
+
 ## KaTex rendering
 
 - $\displaystyle e^{ix} = \cos{x} + i\sin{x}$
@@ -18,4 +27,19 @@
 - [MkDocs](https://github.com/mkdocs/mkdocs)
 - [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
 - [mkdocstrings](https://github.com/mkdocstrings/mkdocstrings)
+- [git-cliff](https://github.com/orhun/git-cliff)
 - [shields](https://github.com/badges/shields)
+
+
+[pypi-badge]: https://img.shields.io/pypi/v/pylib-template?pypiBaseUrl=https%3A%2F%2Ftest.pypi.org&style=for-the-badge&logo=pypi&logoColor=white&label=TESTPYPI
+[pypi]: https://test.pypi.org/project/pylib-template
+[readthedocs-badge]: https://img.shields.io/readthedocs/pylib-template?style=for-the-badge&logo=readthedocs&logoColor=white
+[readthedocs]: https://pylib-template.readthedocs.io
+[issues-badge]: https://img.shields.io/github/issues/dd-n-kk/pylib-template?style=for-the-badge&logo=github&logoColor=white
+[issues]: https://github.com/dd-n-kk/pylib-template/issues
+[ci-workflow-badge]: https://img.shields.io/github/actions/workflow/status/dd-n-kk/pylib-template/ci.yaml?style=flat-square&logo=pytest&logoColor=white&label=CI
+[ci-workflow]: https://github.com/dd-n-kk/pylib-template/actions/workflows/ci.yaml
+[release-workflow-badge]: https://img.shields.io/github/actions/workflow/status/dd-n-kk/pylib-template/release.yaml?style=flat-square&logo=pypi&logoColor=white&label=Build
+[release-workflow]: https://github.com/dd-n-kk/pylib-template/actions/workflows/release.yaml
+[codecov-badge]: https://img.shields.io/codecov/c/github/dd-n-kk/pylib-template?style=flat-square&logo=codecov&logoColor=white&label=Coverage
+[codecov]: https://app.codecov.io/gh/dd-n-kk/pylib-template
