@@ -1,4 +1,12 @@
 
+### [0.1.4](https://github.com/dd-n-kk/pylib-template/compare/v0.1.3..v0.1.4) - 2025-02-12
+
+#### Chores
+
+- **(cicd)** Add version bump options to release workflow - ([4a8f8e6](https://github.com/dd-n-kk/pylib-template/commit/4a8f8e69a2ec5bfdc66b0192e356b9c1d387d031)) - dd-n-kk
+
+---
+
 ### [0.1.3](https://github.com/dd-n-kk/pylib-template/compare/v0.1.2..v0.1.3) - 2025-02-09
 
 #### Documentation
