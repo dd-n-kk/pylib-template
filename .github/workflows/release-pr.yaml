@@ -1,7 +1,14 @@
 name: release-pr
 
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'The semantic version number to bump'
+        default: 'patch'
+        type: choice
+        options: ['auto', 'major', 'minor', 'patch']
 
 
 jobs:
@@ -30,8 +37,10 @@ jobs:
 
     # https://stackoverflow.com/a/76371212
     - name: Evaluate new semantic version number
+      env:
+        BUMP: ${{ github.event.inputs.bump }}
       run: |
-        new_ver=$(uvx --from git-cliff git cliff --bumped-version)
+        new_ver=$(uvx --from git-cliff git cliff --bumped-version --bump $BUMP)
         if [[ "$new_ver" =~ v?([0-9]+\.[0-9]+\.[0-9]+) ]]; then
           echo "NEW_VER=${BASH_REMATCH[1]}" >> $GITHUB_ENV
         else
