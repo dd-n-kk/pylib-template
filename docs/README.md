@@ -39,7 +39,7 @@
 [issues]: https://github.com/dd-n-kk/pylib-template/issues
 [ci-workflow-badge]: https://img.shields.io/github/actions/workflow/status/dd-n-kk/pylib-template/ci.yaml?style=flat-square&logo=pytest&logoColor=white&label=CI
 [ci-workflow]: https://github.com/dd-n-kk/pylib-template/actions/workflows/ci.yaml
-[release-workflow-badge]: https://img.shields.io/github/actions/workflow/status/dd-n-kk/pylib-template/release.yaml?style=flat-square&logo=pypi&logoColor=white&label=Build
+[release-workflow-badge]: https://img.shields.io/github/actions/workflow/status/dd-n-kk/pylib-template/release.yaml?style=flat-square&logo=githubactions&logoColor=white&label=Build
 [release-workflow]: https://github.com/dd-n-kk/pylib-template/actions/workflows/release.yaml
 [codecov-badge]: https://img.shields.io/codecov/c/github/dd-n-kk/pylib-template?style=flat-square&logo=codecov&logoColor=white&label=Coverage
 [codecov]: https://app.codecov.io/gh/dd-n-kk/pylib-template
