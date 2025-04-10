@@ -1,4 +1,14 @@
 
+### [0.1.5](https://github.com/dd-n-kk/pylib-template/compare/v0.1.4..v0.1.5) - 2025-04-10
+
+#### Chores
+
+- **(cicd)** Fix version bump options of release PR workflow - ([2582c46](https://github.com/dd-n-kk/pylib-template/commit/2582c4686b4b4c59145dea5474b4838fb0a32e31)) - dd-n-kk
+- **(cicd)** Fix spacing in git-cliff template - ([e42864f](https://github.com/dd-n-kk/pylib-template/commit/e42864f18594f03476829c0788e4bd6c39b35cf8)) - dd-n-kk
+- **(cicd)** Refine trigger of release workflow - ([91e3091](https://github.com/dd-n-kk/pylib-template/commit/91e3091a8f766f1fb8f285d4c069b309a7d9820a)) - dd-n-kk
+
+---
+
 ### [0.1.4](https://github.com/dd-n-kk/pylib-template/compare/v0.1.3..v0.1.4) - 2025-02-12
 
 #### Chores
